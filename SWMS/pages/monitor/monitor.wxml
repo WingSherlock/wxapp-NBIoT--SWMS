@@ -1,0 +1,59 @@
+<!--pages/monitor/monitor.wxml-->
+<view class='con'>
+  <view class='con' bindtap=''>
+    <image src='../../img/monitor/tem.png'></image>
+    <view>温度:</view>
+    <input value='{{tem}}'></input>
+    <view>°C</view>
+  </view>
+  <view class='con' bindtap=''>
+    <image src='../../img/monitor/hum.png'></image>
+    <view>湿度:</view>
+    <input value='{{hum}}'></input>
+    <view>°C</view>
+  </view>
+</view>
+
+<view class='con'> 
+  <image src='../../img/monitor/inf.png'></image>
+  <view >人体红外:</view>
+  <input value='{{inf}}'></input>
+</view>
+
+<view class='con'> 
+  <image src='../../img/monitor/smog.png'></image>
+  <view>烟雾浓度:</view>
+  <input value='{{smog}}' class='smog'></input>
+</view>
+
+<!-- <view class='con'> 
+  <image src='../../img/monitor/rc.png'></image>
+  <view>高频读卡:</view>
+  <input value='{{rc}}'></input>
+</view> -->
+
+<view class='con'> 
+  <image src='../../img/monitor/fan.png'></image>
+  <view>电机风扇:  </view>
+  开<switch bindchange="fan" />关
+</view>
+
+<view class='con'> 
+  <image src='../../img/monitor/humer.png'></image>
+  <view> 加 湿 器 :  </view>
+  开<switch bindchange='humer'/>关
+</view>
+
+<view class='con'> 
+  <image src='../../img/monitor/water.png'></image>
+  <view>喷水灭火:  </view>
+  开<switch bindchange='water'/>关
+</view>
+
+<view class='con'> 
+  <image src='../../img/monitor/light.png'></image>
+  <view>     电      灯    :  </view>
+  开<switch bindchange='light'/>关
+</view>
+
+

@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/monitor/monitor",
+    "pages/statistics/statistics",
+    "pages/me/me",
+    "pages/in/in",
+    "pages/out/out"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智能仓库",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#52bdfa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/tab/index.png",
+        "selectedIconPath": "img/tab/index.png"
+      },
+      {
+        "pagePath": "pages/monitor/monitor",
+        "text": "监控",
+        "iconPath": "img/tab/monitor.png",
+        "selectedIconPath": "img/tab/monitor.png"
+      },
+      {
+        "pagePath": "pages/statistics/statistics",
+        "text": "统计",
+        "iconPath": "img/tab/statistics.png",
+        "selectedIconPath": "img/tab/statistics.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "账户",
+        "iconPath": "img/tab/me.png",
+        "selectedIconPath": "img/tab/me.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,24 @@
+<!--pages/in/in.wxml-->
+<view class='con'>
+  <view class='title'>ID:</view>
+  <input class='input' bindinput='idInput' type='number'></input>
+</view>
+
+<view class='con'>
+  <view class='title'>名称:</view>
+  <input class='input' bindinput='nameInput'></input>
+</view>
+
+<view class='con'>
+  <view class='title'>入库数量:</view>
+  <input class='input' bindinput='numInput' type='number'></input>
+</view>
+
+<view class='con'>
+  <view class='title'>入库时间:</view>
+  <input class='input disabled'  disabled='true' value='{{time}}'></input>
+</view>
+
+<button bindtap='sumbit'>提交</button>
+
+

@@ -1,0 +1,12 @@
+<!--pages/login/login.wxml-->
+<view class='con'>
+  <view class='title'>用户名:</view>
+  <input class='input' bindinput='nameInput'></input>
+</view>
+
+<view class='con'>
+  <view class='title'>密码:</view>
+  <input class='input' bindinput='pwdInput' password='true'></input>
+</view>
+
+<button bindtap='login'>登录</button>

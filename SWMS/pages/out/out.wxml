@@ -1,0 +1,22 @@
+<!--pages/out/out.wxml-->
+<view class='con'>
+  <view class='title'>ID:</view>
+  <input class='input' bindinput='idInput' type='number'></input>
+</view>
+
+<button bindtap='find'>查询</button>
+
+<view class='hr'></view>
+
+<view class='tb'>名称:{{name}}</view>
+<view class='tb'>入库数量:{{num}}</view>
+<view class='tb'>入库时间:{{time}}</view>
+
+<view class='hr'></view>
+
+<view class='con'>
+  <view class='title'>出库数量:</view>
+  <input class='input' bindinput='numInput' type='number'></input>
+</view>
+
+<button bindtap='out'>提交</button>

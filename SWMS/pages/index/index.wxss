@@ -1,0 +1,11 @@
+/**index.wxss**/
+.con{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+image{
+  height: 100rpx;
+  width: 100rpx;
+  margin: 50rpx;
+}

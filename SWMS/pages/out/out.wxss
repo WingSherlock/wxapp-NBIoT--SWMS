@@ -1,0 +1,26 @@
+/* pages/out/out.wxss */
+.con{
+  display: flex;
+  direction: row;
+}
+.title{
+  margin: 20rpx;
+  width:180rpx;
+  text-align: center;
+}
+.input{
+  border: 1px solid black;
+  margin: 20rpx;
+  border-radius: 5px;
+}
+button{
+  margin: 20rpx;
+}
+
+.hr{
+  border-bottom: 5px solid rgb(235, 235, 235);
+  margin: 20rpx 0rpx 20rpx 0rpx;
+}
+.tb{
+  margin: 20rpx;
+}

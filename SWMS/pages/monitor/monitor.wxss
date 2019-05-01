@@ -1,0 +1,19 @@
+/* pages/monitor/monitor.wxss */
+.con{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+image{
+  height: 100rpx;
+  width: 100rpx;
+  margin: 20rpx 10rpx 20rpx 20rpx;
+}
+input{
+  border: 1px solid black;
+  width: 100rpx;
+}
+.smog{
+  width: 300rpx;
+}

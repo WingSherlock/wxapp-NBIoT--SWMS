@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class='con' bindtap='in'>
+  <image src='../../img/index/in.png'></image>
+  <view>入库</view>
+</view>
+
+<view class='con' bindtap='out'>
+  <image src='../../img/index/out.png'></image>
+  <view>出库</view>
+</view>

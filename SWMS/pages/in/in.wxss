@@ -1,0 +1,21 @@
+/* pages/in/in.wxss */
+.con{
+  display: flex;
+  direction: row;
+}
+.title{
+  margin: 20rpx;
+  width:180rpx;
+  text-align: center;
+}
+.input{
+  border: 1px solid black;
+  margin: 20rpx;
+  border-radius: 5px;
+}
+button{
+  margin: 20rpx;
+}
+.disabled{
+  background-color: #e5e5e5;
+}
