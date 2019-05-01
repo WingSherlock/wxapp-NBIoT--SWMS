@@ -1,6 +1,6 @@
 <?php
   $conn=mysqli_connect
-("118.126.95.173","root","123456");
+("","","");//服务器地址，用户名，密码
 if(!$conn)
 {
    die('Could not connect:'.mysql_error());
